@@ -1,2 +1,2 @@
 # Property-Managment
-First time on github. Getting used to the setup, so please bear with me if(when) I do something stupid.
+This program is designed to help small rental agencies maintain records of their tenants and properties along with various maintenance requests and incidents.
