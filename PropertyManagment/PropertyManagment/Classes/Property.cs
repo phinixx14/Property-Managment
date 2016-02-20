@@ -127,7 +127,7 @@ namespace PropertyManagment
         }           //calculated
 
         public Property() { }
-        private Property(string city, string streetAddress, double rent, bool moveInReady, string state, double purchasePrice, DateTime aquisitionDate, Features features)
+        private Property(string city, string streetAddress, double rent, bool moveInReady, string state, double purchasePrice, DateTime aquisitionDate, Features features, byte[] imageData)
         {
             PropertyID = "Prop_" + NextID++;
             StreetAddress = new Address() { State = state, City = city, StreetAddress = streetAddress };
@@ -136,10 +136,11 @@ namespace PropertyManagment
             PropertyFeatures = features;
             AquisitionDate = Convert.ToDateTime(aquisitionDate);
             Rent = rent;
+            ImageData = imageData;
         }
         public static void AddProperty(string city, string streetAddress, double purchasePrice, DateTime aquisitionDate, Features features, double rent = 0, bool moveInReady = false, string state = "Illinois", byte[] imageData = null)
         {
-            Property property = new Property(city, streetAddress, rent, moveInReady, state, purchasePrice, aquisitionDate, features);
+            Property property = new Property(city, streetAddress, rent, moveInReady, state, purchasePrice, aquisitionDate, features, imageData);
             PropertyList.Add(property);
             Occurence.AddNewOccurence("Aquired new property", streetAddress, aquisitionDate, property, Occurence.Statuses.Resolved, null);
         }

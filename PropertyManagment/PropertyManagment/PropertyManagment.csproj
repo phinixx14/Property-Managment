@@ -283,31 +283,31 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AddTenantIcon.png" />
+    <EmbeddedResource Include="Resources\AddTenantIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dollarSign.jpg" />
+    <EmbeddedResource Include="Resources\dollarSign.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Home-Green.bmp" />
+    <EmbeddedResource Include="Resources\Home-Green.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Home-icon.png" />
+    <EmbeddedResource Include="Resources\Home-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Home-Red.bmp" />
+    <EmbeddedResource Include="Resources\Home-Red.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\HomeYellow.bmp" />
+    <EmbeddedResource Include="Resources\HomeYellow.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Maintenance.png" />
+    <EmbeddedResource Include="Resources\Maintenance.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Rocks.jpg" />
+    <EmbeddedResource Include="Resources\Rocks.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\unavailable.png" />
+    <EmbeddedResource Include="Resources\unavailable.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
