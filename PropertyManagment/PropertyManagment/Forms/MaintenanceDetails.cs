@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PropertyManagment
 {
-    public partial class Form1 : Form
+    public partial class MaintenanceDetails : Form
     {
-        public Form1()
+        public MaintenanceDetails()
         {
             InitializeComponent();
         }
